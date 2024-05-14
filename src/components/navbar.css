@@ -1,0 +1,13 @@
+.navbar a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12pt;
+}
+
+.navbar a:hover {
+  text-decoration: none !important;
+}
+
+.navbar li {
+  margin-left: 28px;
+}

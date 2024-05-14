@@ -1,0 +1,35 @@
+#berita img {
+  width: 100%;
+}
+#berita a {
+  text-decoration: none !important;
+}
+#berita .text-desc-2 {
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#berita span {
+  padding: 2px 10px;
+  border-radius: 16px;
+  background: #d9ebfa;
+  color: #007adc;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+#berita .card {
+  transition: transform 0.3s ease-in-out !important;
+}
+#berita .card h3.heading-3 {
+  transition: color 0.3s ease-in-out !important;
+}
+#berita .card:hover {
+  transform: scale(1.05);
+}
+#berita .card:hover h3.heading-3 {
+  color: #007adc;
+}
