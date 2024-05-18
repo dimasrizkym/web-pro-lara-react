@@ -9,8 +9,7 @@ export default function Footer() {
               KEDAWUN<span className="text-primary">G.</span>
             </h3>
             <p className="text-desc-2 mw-350 mt-3 mb-3">
-              Mengatasi kesenjangan ilmu IT di antara pendidikan formal dan
-              kebutuhan dunia industri
+            Selamat Datang di Desa Kami.Desa yang asri dengan pemandangan yang memukau.
             </p>
           </div>
           <div className="col-lg-2 col-md-4 col-sm-12">
@@ -73,7 +72,7 @@ export default function Footer() {
               <div className="row p-3">
                 <div className="col-md-6 col-sm-12" id="col-email">
                   <p className="text-desc-1 bold-600 text-white mb-2">Email</p>
-                  <p className="text-desc-2 text-white">edutor@gmail.com</p>
+                  <p className="text-desc-2 text-white">kedawung@gmail.com</p>
                 </div>
                 <div className="col-md-6 col-sm-12">
                   <p className="text-desc-1 bold-600 text-white mb-2 ms-md-5 ms-sm-auto">

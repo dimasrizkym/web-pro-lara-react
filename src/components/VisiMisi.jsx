@@ -7,9 +7,7 @@ export default function VisiMisi() {
         <div className="col-md-6 col-sm-12">
           <h2 className="heading-2">Visi Misi</h2>
           <p className="mt-3 text-desc-2 mb-48">
-            Mengatasi kesenjangan ilmu IT di antara pendidikan formal dan
-            kebutuhan dunia industri. Temukan bagaimana EDUTOR dapat membantu
-            Anda melejitkan potensi pendidikan dan karier Anda
+          Visi dan misi Desa Kedawung merupakan sebuah komitmen bersama untuk membangun desa yang lebih baik. Dengan kerja keras, kolaborasi, dan partisipasi aktif dari seluruh elemen masyarakat, desa Kedawung dapat mencapai visinya dan menjadi desa yang maju, mandiri, dan sejahtera.
           </p>
         </div>
         <div className="col-md-6 col-sm-12 text-center" id="imgTagLine">

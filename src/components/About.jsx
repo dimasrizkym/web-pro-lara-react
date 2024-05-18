@@ -12,9 +12,7 @@ export default function About() {
         <div className="col-md-6 col-sm-12 txt-about" id="tagLine">
           <h2 className="heading-2">About</h2>
           <p className="mt-3 text-desc-2 mb-48">
-            Mengatasi kesenjangan ilmu IT di antara pendidikan formal dan
-            kebutuhan dunia industri. Temukan bagaimana EDUTOR dapat membantu
-            Anda melejitkan potensi pendidikan dan karier Anda
+          Desa Kedawung adalah salah satu Desa yang berada di Kecamatan Kedawung Kabupaten Cirebon dengan luas wilayah 45,475 Ha dengan jumlah penduduk sebanyak 5.292 jiwa terdiri dari 2.508 laki-laki dan 2.784 perempuan dengan jumlah kepala keluarga 1.025 kepala keluarga.
           </p>
         </div>
       </div>

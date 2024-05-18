@@ -25,13 +25,10 @@ export default function Berita() {
                   Dimas Rizky • 10 Artikel
                 </div>
                 <div className="heading-3 mt-3 mb-3">
-                  <h3 className="heading-3">berita HTML</h3>
+                  <h3 className="heading-3">Menjelajahi Keindahan dan Keunikan Desa: Sebuah Jendela Budaya dan Kearifan Lokal</h3>
                 </div>
                 <p className="text-desc-2 text-justify">
-                  Bersama Dimas Rizky, Anda akan diajak mengeksplorasi dunia
-                  HTML melalui 10 artikel beritanya. Dengan cara yang jelas dan
-                  mudah dipahami, Dimas membantu Anda memahami dasar-dasar HTML
-                  sehingga Anda dapat membangun halaman web dengan percaya diri
+                Di balik gemerlap kota metropolitan, terhampar pesona pedesaan yang menawan. Desa, sebagai unit terkecil dalam struktur pemerintahan, menyimpan kekayaan budaya dan kearifan lokal yang tak ternilai.
                 </p>
               </div>
             </a>
@@ -45,16 +42,14 @@ export default function Berita() {
               />
               <div className="card-body p-0">
                 <div className="text-desc-2 mt-3 bold-600">
-                  Akbar • 15 Artikel
+                  Ilham • 15 Artikel
                 </div>
                 <div className="heading-3 mt-3 mb-3">
-                  <h3 className="heading-3">berita CSS</h3>
+                  <h3 className="heading-3">Mencicipi Kuliner Khas yang Menggugah Selera</h3>
                 </div>
                 <p className="text-desc-2 text-justify">
-                  Akbar membawa keahliannya dalam CSS melalui 15 artikel berita
-                  yang informatif. Dari dasar hingga teknik lanjutan, setiap
-                  artikelnya memberikan wawasan tentang bagaimana menggunakan
-                  CSS untuk membuat tata letak dan gaya halaman web yang menarik
+                Setiap desa memiliki kuliner khasnya sendiri. Kuliner ini biasanya terbuat dari bahan-bahan segar yang berasal dari hasil pertanian atau perikanan desa. Cita rasa kuliner khas desa yang autentik dan lezat menjadi daya tarik tersendiri bagi para pecinta kuliner.
+
                 </p>
               </div>
             </a>

@@ -10,9 +10,7 @@ export default function Hero() {
         >
           <h1 className="heading-1 text-center">Website Desa Kedawung</h1>
           <p className="mt-3 text-desc-2 text-center mb-48">
-            Mengatasi kesenjangan ilmu IT di antara pendidikan formal dan
-            kebutuhan dunia industri. Temukan bagaimana EDUTOR dapat membantu
-            Anda melejitkan potensi pendidikan dan karier Anda
+          Selamat Datang di Desa Kami.Desa yang asri dengan pemandangan yang memukau.
           </p>
           <a href="#" className="btn btn-primary">
             Jelajahi
