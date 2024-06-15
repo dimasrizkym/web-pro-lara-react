@@ -6,7 +6,7 @@ export default function ContactUs() {
         <div className="bg-blue rounded-3 row align-items-center p-4">
           <div className="col-sm-12 mb-5 text-center">
             <h3 className="heading-3 text-white">Hubungi Kami!</h3>
-            <p className="text-white">Lorem</p>
+            <p className="text-white">Pemerintah Desa Kedawung</p>
           </div>
           <form className="col-sm-12">
             <div className="d-flex flex-column gap-4">

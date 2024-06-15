@@ -1,5 +1,6 @@
 import "./navbar.css";
 
+
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-white">
@@ -28,12 +29,12 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Struktur Desa
+              <a className="nav-link" href="#visiMisi">
+                Visi Misi Desa
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#berita">
                 Berita
               </a>
             </li>

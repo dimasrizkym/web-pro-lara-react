@@ -1,67 +1,95 @@
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./services.css";
 
 export default function Services() {
   return (
     <section className="container" id="services">
       <div className="row section-padding">
-        <div className="col-md-6 col-sm-12 mb-32">
-          <h2 className="heading-2">Pelayanan Desa</h2>
-          <p className="text-desc-2">
-          Pelayanan desa yang berkualitas dan memuaskan adalah kunci utama untuk membangun desa yang maju, mandiri, dan sejahtera. Dengan komitmen dan kerja keras dari seluruh elemen masyarakat, desa dapat memberikan pelayanan yang terbaik bagi warganya dan mewujudkan visi misinya.
-          </p>
-        </div>
-        <div className="col-md-12">
-          <div className="row align-items-center">
-            <div className="col-md-6 col-sm-12 text-center">
-              <img
-                src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="edutor"
-                className="rounded-3"
-              />
+        <div className="col-md-3"></div> {/* Kolom kosong untuk posisi tengah */}
+        <div className="col-md-6 col-sm-12 mb-4">
+          <div className="text-center">
+            <h2 className="heading-2">Layanan Desa</h2>
+          </div>
+          <div className="icon-section">
+            <div className="icon-item text-center">
+              <i className="fas fa-hands-helping fa-3x"></i>
+              <p className="text-desc-2 mt-2">Bantuan Sosial</p>
             </div>
-            <div className="col-md-6 col-sm-12">
-              <div className="row">
-                <div className="col-md-6 col-sm-12 text-center">
-                  <h3 className="text-desc-1">Menjelajahi Keindahan dan Keunikan Desa: Sebuah Jendela Budaya dan Kearifan Lokal</h3>
-                  <p className="text-desc-2">
-                    Di balik gemerlap kota metropolitan, terhampar pesona pedesaan yang menawan. Desa, sebagai unit terkecil dalam struktur pemerintahan, menyimpan kekayaan budaya dan kearifan lokal yang tak ternilai.
-                  </p>
-                </div>
-                <div className="col-md-6 col-sm-12 text-center">
-                  <h3 className="text-desc-1">Menelusuri Jejak Sejarah dan Budaya</h3>
-                  <p className="text-desc-2">
-                  Menjelajahi desa bagaikan menyusuri lorong waktu. Di sini, kita dapat menemukan jejak sejarah dan budaya yang terukir dalam peninggalan-peninggalan leluhur. Rumah adat yang kokoh, candi-candi yang megah, dan tradisi-tradisi yang masih lestari menjadi saksi bisu perjalanan peradaban desa.
-                  </p>
-                </div>
-              </div>
-              <div className="row mt-32">
-                <div className="col-md-6 col-sm-12 text-center">
-                  <h3 className="text-desc-1">Menyaksikan Kearifan Lokal yang Berkembang</h3>
-                  <p className="text-desc-2">
-                  Masyarakat desa memiliki kearifan lokal yang telah diwariskan turun-temurun. Kearifan lokal ini tercermin dalam berbagai aspek kehidupan, seperti cara bertani, cara bercocok tanam, dan cara menyelesaikan konflik. Kearifan lokal ini menjadi pedoman hidup masyarakat desa dan membantu mereka beradaptasi dengan alam dan lingkungannya.
-                  </p>
-                </div>
-                <div className="col-md-6 col-sm-12 text-center">
-                  <h3 className="text-desc-1">Menikmati Keindahan Alam yang Asri</h3>
-                  <p className="text-desc-2">
-                  Pemandangan alam desa yang asri memanjakan mata dan menyejukkan jiwa. Hamparan sawah yang hijau, pegunungan yang menjulang tinggi, dan aliran sungai yang jernih menjadi daya tarik utama bagi wisatawan yang ingin melepas penat dari kesibukan kota.
-                  </p>
-                </div>
-              </div>
-              <div className="row mt-32">
-                <div className="col-md-6 col-sm-12 text-center">
-                  <h3 className="text-desc-1">Mencicipi Kuliner Khas yang Menggugah Selera</h3>
-                  <p className="text-desc-2">
-                  Setiap desa memiliki kuliner khasnya sendiri. Kuliner ini biasanya terbuat dari bahan-bahan segar yang berasal dari hasil pertanian atau perikanan desa. Cita rasa kuliner khas desa yang autentik dan lezat menjadi daya tarik tersendiri bagi para pecinta kuliner.
-                  </p>
-                </div>
-                <div className="col-md-6 col-sm-12 text-center">
-                  <h3 className="text-desc-1">Menjalani Pengalaman yang Tak Terlupakan</h3>
-                  <p className="text-desc-2">
-                  Berkunjung ke desa bukan hanya tentang melihat pemandangan dan mencicipi kuliner, tetapi juga tentang merasakan pengalaman yang tak terlupakan. Di sini, kita dapat berinteraksi langsung dengan masyarakat desa, belajar tentang budaya dan kearifan lokal mereka, dan bahkan ikut berpartisipasi dalam kegiatan-kegiatan mereka.
-                  </p>
-                </div>
-              </div>
+            <div className="icon-item text-center">
+              <i className="fas fa-ambulance fa-3x"></i>
+              <p className="text-desc-2 mt-2">Mobil Darurat</p>
+            </div>
+            <div className="icon-item text-center">
+              <i className="fas fa-id-card fa-3x"></i>
+              <p className="text-desc-2 mt-2">Kartu dan Surat-Surat</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3"></div> {/* Kolom kosong untuk posisi tengah */}
+      </div>
+
+      {/* Bagian artikel di bawah layanan desa */}
+      <div className="row section-padding">
+        <div className="col-md-6 col-sm-12 mb-4">
+          <div className="card h-100 border-0">
+            <img
+              src="https://2.bp.blogspot.com/-emKQCSdSL_U/V-jeYzGfY2I/AAAAAAAABtI/tyxnbParNpcPGUTlKJvmzDSQXseda79HQCLcB/s1600/m-064.jpg"
+              alt="edutor"
+              className="card-img-top rounded-3 fixed-size" 
+            />
+            <div className="card-body">
+              <h3 className="card-title text-desc-1 mb-3">Sejarah Desa Kedawung</h3>
+              <p className="card-text text-desc-2 text-justify">
+                Pada abad ke-15, ketika Kerajaan Cirebon berdiri, Sunan Gunung Jati memainkan peran penting dalam menyebarkan Agama Islam. Banyak santri datang untuk belajar darinya dan kemudian dikirim kembali ke daerah asal mereka untuk mengajar. Di sebuah padukuhan, Ki Demang Martapura dan Ki Demang Rengas Papak memimpin, tetapi mereka memerintah dengan sewenang-wenang. Mereka meminta jabatan lebih tinggi kepada Sunan Gunung Jati, namun hanya diberi tugas mengurus kuda sebagai ujian kejujuran dan tanggung jawab. Merasa kecewa, Ki Demang Rengas Papak menyesali ambisinya untuk jabatan yang lebih tinggi.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-6 col-sm-12 mb-4">
+          <div className="card h-100 border-0">
+            <img
+              src="https://sorotan24.com/wp-content/uploads/2021/07/k18.jpg"
+              alt="nasi jamblang"
+              className="card-img-top rounded-3 fixed-size" 
+            />
+            <div className="card-body">
+              <h3 className="card-title text-desc-1 mb-3">Nasi Jamblang</h3>
+              <p className="card-text text-desc-2 text-justify">
+              Nasi jamblang adalah hidangan khas Cirebon yang terkenal dengan kelezatan dan keunikan rasanya. Makanan ini terdiri dari nasi putih yang disajikan dengan beragam lauk pauk, seperti sambal goreng hati, ayam goreng, tahu, tempe goreng, dan masih banyak lagi pilihan lauk lainnya. Namun, yang membedakan nasi jamblang adalah penggunaan daun jati sebagai wadah atau pembungkus untuk menyajikan lauk-pauk tersebut, memberikan cita rasa khas yang sulit dilupakan. Nasi jamblang tidak hanya memikat lidah, tetapi juga menghadirkan pengalaman kuliner tradisional yang autentik dari daerah Cirebon.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-6 col-sm-12 mb-4">
+          <div className="card h-100 border-0">
+            <img
+              src="https://www.panda.id/wp-content/uploads/Desa-digital-980x506.png"
+              alt="nasi jamblang"
+              className="card-img-top rounded-3 fixed-size" 
+            />
+            <div className="card-body">
+              <h3 className="card-title text-desc-1 mb-3">Potret Kehidupan Desa di Era Digital</h3>
+              <p className="card-text text-desc-2 text-justify">
+              Di tengah pesatnya perkembangan teknologi digital, desa-desa di seluruh dunia menghadapi tantangan dan peluang baru. Desa, yang dahulu dikenal dengan kehidupan agrarisnya yang sederhana, kini mulai merasakan dampak transformasi digital. Hal ini tercermin dari adopsi teknologi informasi dan komunikasi yang semakin luas di berbagai pelosok desa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-6 col-sm-12 mb-4">
+          <div className="card h-100 border-0">
+            <img
+              src="https://ajopiaman.com/wp-content/uploads/2019/12/literasi-digital.png"
+              alt="nasi jamblang"
+              className="card-img-top rounded-3 fixed-size" 
+            />
+            <div className="card-body">
+              <h3 className="card-title text-desc-1 mb-3">Mengapa Literasi Digital Penting di Era Digitalisasi</h3>
+              <p className="card-text text-desc-2 text-justify">
+              Di tengah kemajuan teknologi yang pesat, literasi digital semakin menjadi kebutuhan yang mendesak bagi setiap individu. Literasi digital bukan lagi sekadar kemampuan menggunakan perangkat lunak atau perangkat keras komputer, melainkan kemampuan untuk memahami, mengevaluasi, dan menggunakan informasi secara efektif dari berbagai platform digital.
+              </p>
             </div>
           </div>
         </div>

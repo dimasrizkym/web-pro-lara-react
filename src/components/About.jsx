@@ -4,7 +4,7 @@ export default function About() {
       <div className="row section-padding d-flex space-between align-items-center">
         <div className="col-md-6 col-sm-12 text-center" id="imgTagLine">
           <img
-            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://1.bp.blogspot.com/-e8Wl6VDnzUk/VJK_aEAWD6I/AAAAAAAAADw/aXZn_7KtNsI/s1600/IMG-20141218-01828.jpg"
             className="img-about rounded-3"
             alt="Image Header"
           />

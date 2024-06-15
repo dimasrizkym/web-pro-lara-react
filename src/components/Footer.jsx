@@ -9,7 +9,7 @@ export default function Footer() {
               KEDAWUN<span className="text-primary">G.</span>
             </h3>
             <p className="text-desc-2 mw-350 mt-3 mb-3">
-            Selamat Datang di Desa Kami.Desa yang asri dengan pemandangan yang memukau.
+            Selamat Datang di Website Resmi Pemerintah Desa Kedawung.
             </p>
           </div>
           <div className="col-lg-2 col-md-4 col-sm-12">
@@ -88,7 +88,7 @@ export default function Footer() {
           <hr className="txt-blue" />
           <div className="container d-flex justify-content-center">
             <div className="copyright pb-3">
-              © Copyright 2023 <span>STIKOM POLTEK CIREBON</span>
+              © Copyright 2023 <span>PEMERINTAH DESA KEDAWUNG</span>
             </div>
           </div>
         </div>
